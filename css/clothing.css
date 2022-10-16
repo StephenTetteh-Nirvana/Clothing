@@ -3,7 +3,6 @@
     margin:0;
 }
 body{
-    background-color:grey;
     font-family:Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -18,7 +17,7 @@ span{
     left:6%;
     text-transform:uppercase;
     font-size:30px;
-    font-family: "Poppins";
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .navbar{
    display:flex;
@@ -36,20 +35,35 @@ span{
     text-decoration:none;
     color:white;
     text-transform:uppercase;
-    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition:all 0.5s ease-in-out;
 }
+/* .navbar li a:hover{
+    border-radius: 25px;
+    background-color:orange;
+    padding: 10px 15px ;
+} */
+.highlight{
+    font-size:18px;
+    font-weight: bolder;
+    border-radius: 25px;
+    background-color:green;
+    padding: 10px 15px ;
+}
+
 .header{
     position:relative;
     top: 20%;
     left:5%;
     font-size:90px;
     font-weight:bold;
+    font-family:'Courier New', Courier, monospace;
     text-transform:uppercase;
     color:white;
 }
 .Image{
     height:100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/8.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/7.jpg);
     background-position:right;
     background-size:cover;
     background-repeat:no-repeat;
@@ -62,7 +76,7 @@ span{
 }
 .btn{
     font-size:20px;
-    padding: 10px 40px;
+    padding: 7px 50px;
     text-transform: uppercase;
     border-radius:25px;
     background:transparent;
