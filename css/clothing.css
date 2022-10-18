@@ -49,6 +49,11 @@ span{
     border-radius: 25px;
     background-color:green;
     padding: 10px 15px ;
+    word-spacing:5px;
+}
+.link{
+    text-decoration:none;
+    color:white;
 }
 
 .header{
@@ -82,4 +87,94 @@ span{
     background:transparent;
     color:white;
     border:2px solid coral;
+    cursor:pointer;
+}
+
+/* IMAGES */
+.Image1{
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/5.jpg);
+    background-position:right;
+    background-size:cover;
+    background-repeat:no-repeat;
+    overflow:hidden;
+}
+.container{
+    width:100%;
+    /* border:1px solid white; */
+    display:grid;
+    margin-top:50px;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+.griditem1{
+    display:grid;
+    grid-template-rows:5fr 1fr;
+    height:300px;
+    width:350px;
+   margin-left:25px;
+
+}
+.griditem5{
+    display:grid;
+    grid-template-rows:5fr 1fr;
+    height:300px;
+    width:350px;
+    margin-left:25px;
+    margin-top:25px;
+
+}
+.first-image{
+    background-image: url(../images/10.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.fifth-image{
+    background-image: url(../images/shoe.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat
+}
+.tags{
+    display:grid;
+    grid-template-rows:1fr 1fr;
+}
+.new{
+    background-color:green;
+    text-transform:uppercase;
+    margin:10px 10px;
+    border-radius:10px;
+    color:white;
+    font-weight:bold;
+    padding:5px 5px;
+    width:55px;
+    text-align:center;
+}
+.discount{
+    background-color:red;
+    text-transform:uppercase;
+    margin:5px 10px;
+    border-radius:10px;
+    color:white;
+    font-weight:bold;
+    padding:5px 5px;
+    width:55px;
+    text-align:center;
+}
+.name{
+    font-weight:bold;
+    color:grey;
+}
+.price{
+    font-size:17px;
+    font-weight:bolder;
+}
+/* ABOUT */
+.Image1{
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/4.jpg);
+    background-position:right;
+    background-size:cover;
+    background-repeat:no-repeat;
+    overflow:hidden;
 }
