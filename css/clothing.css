@@ -92,11 +92,13 @@ span{
 
 /* IMAGES */
 .Image1{
-    height:100vh;
+    height:50vh;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/4.jpg);
     background-position:right;
     background-size:cover;
     background-repeat:no-repeat;
+    
+    
 }
 .container{
     width:100%;
@@ -225,4 +227,43 @@ span{
     background-size:cover;
     background-repeat:no-repeat;
     overflow:hidden;
+}
+.form-box{
+    width:500px;
+    border: 1px solid white;
+    border-radius:20px;
+     position:relative;
+     left:34%;
+     top:10%;
+    height: 500px;
+    text-align:center;
+}
+.logo-2{
+    margin-top:30px;
+    width:70px;
+}
+.Sign-in{
+    font-weight:bold;
+    margin-top:10px;
+}
+.info{
+      font-weight:lighter;
+      margin-top:10px;
+}
+.label1{
+    margin-top:30px;
+}
+input[type='email']{
+    padding:10px 140px;
+    border-radius:20px;
+}
+input[type='placeholder']{
+    margin-right:40px;
+}
+input[type='password']{
+    padding:10px 140px;
+    border-radius:20px;
+}
+.label2{
+    margin-top:20px;
 }
