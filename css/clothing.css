@@ -93,11 +93,10 @@ span{
 /* IMAGES */
 .Image1{
     height:100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/5.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/4.jpg);
     background-position:right;
     background-size:cover;
     background-repeat:no-repeat;
-    overflow:hidden;
 }
 .container{
     width:100%;
@@ -106,13 +105,35 @@ span{
     margin-top:50px;
     grid-template-columns:1fr 1fr 1fr 1fr;
 }
+/* Images=Contains 10 images */
+
 .griditem1{
     display:grid;
     grid-template-rows:5fr 1fr;
     height:300px;
     width:350px;
    margin-left:25px;
-
+}
+.griditem2{
+    display:grid;
+    grid-template-rows:5fr 1fr;
+    height:300px;
+    width:350px;
+   margin-left:25px;
+}
+.griditem3{
+    display:grid;
+    grid-template-rows:5fr 1fr;
+    height:300px;
+    width:350px;
+   margin-left:25px;
+}
+.griditem4{
+    display:grid;
+    grid-template-rows:5fr 1fr;
+    height:300px;
+    width:350px;
+   margin-left:25px;
 }
 .griditem5{
     display:grid;
@@ -120,10 +141,51 @@ span{
     height:300px;
     width:350px;
     margin-left:25px;
-    margin-top:25px;
-
+    margin-top:20px;
+}
+.griditem6{
+    display:grid;
+    grid-template-rows:5fr 1fr;
+    height:300px;
+    width:350px;
+   margin-left:25px;
+   margin-top:20px;
+}
+.griditem7{
+    display:grid;
+    grid-template-rows:5fr 1fr;
+    height:300px;
+    width:350px;
+   margin-left:25px;
+   margin-top:20px;
+}
+.griditem8{
+    display:grid;
+    grid-template-rows:5fr 1fr;
+    height:300px;
+    width:350px;
+   margin-left:25px;
+   margin-top:20px;
 }
 .first-image{
+    background-image: url(../images/10.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.second-image{
+    background-image: url(../images/10.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.third-image{
+    background-image: url(../images/10.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.fourth-image{
     background-image: url(../images/10.jpg);
     background-position: center;
     background-size:cover;
@@ -133,11 +195,25 @@ span{
     background-image: url(../images/shoe.jpg);
     background-position: center;
     background-size:cover;
-    background-repeat:no-repeat
+    background-repeat:no-repeat;
 }
-.tags{
-    display:grid;
-    grid-template-rows:1fr 1fr;
+.sixth-image{
+    background-image: url(../images/10.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.seventh-image{
+    background-image: url(../images/10.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.eigth-image{
+    background-image: url(../images/10.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 .new{
     background-color:green;
@@ -151,7 +227,7 @@ span{
     text-align:center;
 }
 .discount{
-    background-color:red;
+    background-color:rgb(150, 41, 41);
     text-transform:uppercase;
     margin:5px 10px;
     border-radius:10px;
