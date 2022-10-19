@@ -230,7 +230,7 @@ span{
 .form-box{
     width:500px;
     border: 1px solid white;
-    border-radius:20px;
+    border-radius:10px;
      position:relative;
      left:34%;
      top:10%;
@@ -255,13 +255,17 @@ span{
 input[type='email']{
     width: 80%;
     /* padding:10px 140px; */
-    border-radius:20px;
+    border-radius:5px;
     padding:10px;
+    outline: none;
+    border: 0px;
 }
 input[type='password']{
     padding:10px;
     width:80%;
-    border-radius:20px;
+    border-radius:5px;
+    outline: none;
+    border: 0px;
 }
 .label2{
     margin-top:20px;
@@ -290,14 +294,14 @@ input[type='password']{
     text-decoration:none;
 }
 .sign{
-    width: 60%;
+    width: 40%;
     border: 1px solid black;
     border-radius:25px;
     background-color:black;
     color:white;
     padding:10px 10px;
     margin-top:20px;
-    margin-left:80px;
+    margin-left:120px;
     font-family:"fantasy";
     cursor:pointer;
 }
