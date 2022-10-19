@@ -109,10 +109,14 @@ span{
     /* border:2px solid white; */
     display:grid;
     grid-template-rows:2fr 1fr;
-    height:600px;
-    width:500px;
+    height:650px;
+    width:340px;
    margin-left:15px;
    border-radius:30px;
+   transition: all 0.5s ease-in-out;
+}
+.griditem1:hover{
+    margin-top:30px;
 }
 .first-image{
     /* border:5px solid red; */
@@ -120,7 +124,10 @@ span{
     background-position: center;
     background-size:cover;
     background-repeat:no-repeat;
-    border-radius:30px;
+    border-radius:10px;
+}
+.lorem{
+    margin-top:35px;
 }
 .size{
     margin-top:20px;
