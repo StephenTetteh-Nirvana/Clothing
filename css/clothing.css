@@ -234,7 +234,7 @@ span{
      position:relative;
      left:34%;
      top:10%;
-    height: 500px;
+    height: 520px;
     text-align:center;
 }
 .logo-2{
@@ -285,7 +285,7 @@ input[type='password']{
     grid-template-columns:0.4fr 0.7fr;
 }
 .pass a{
-    color:rgb(43, 43, 163);
+    color:white;
     margin-top:5px;
     text-decoration:none;
 }
@@ -299,6 +299,7 @@ input[type='password']{
     margin-top:20px;
     margin-left:80px;
     font-family:"fantasy";
+    cursor:pointer;
 }
 .last-section{
     margin-top:20px;
@@ -307,5 +308,24 @@ input[type='password']{
 }
 .account{
     text-decoration:none;
-    color:rgb(43, 43, 163);
+    color:white;
+}
+.social-links{
+    /* border:1px solid white; */
+    height:70px;
+ 
+}
+.social-links ul{
+    list-style:none;
+    transition:all 0.5s ease-in-out;
+}
+.social-links ul li{
+     display: inline;
+     cursor:pointer;
+  
+}
+.fb{
+    margin-top:30px;
+    margin-right:20px;
+    width:30px;
 }
