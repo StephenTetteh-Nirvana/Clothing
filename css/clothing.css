@@ -102,153 +102,118 @@ span{
     width:100%;
     /* border:1px solid white; */
     display:grid;
-    margin-top:50px;
+    margin-top:30px;
     grid-template-columns:1fr 1fr 1fr 1fr;
 }
-/* Images=Contains 10 images */
-
 .griditem1{
+    /* border:2px solid white; */
     display:grid;
-    grid-template-rows:5fr 1fr;
-    height:300px;
-    width:350px;
-   margin-left:25px;
-}
-.griditem2{
-    display:grid;
-    grid-template-rows:5fr 1fr;
-    height:300px;
-    width:350px;
-   margin-left:25px;
-}
-.griditem3{
-    display:grid;
-    grid-template-rows:5fr 1fr;
-    height:300px;
-    width:350px;
-   margin-left:25px;
-}
-.griditem4{
-    display:grid;
-    grid-template-rows:5fr 1fr;
-    height:300px;
-    width:350px;
-   margin-left:25px;
-}
-.griditem5{
-    display:grid;
-    grid-template-rows:5fr 1fr;
-    height:300px;
-    width:350px;
-    margin-left:25px;
-    margin-top:20px;
-}
-.griditem6{
-    display:grid;
-    grid-template-rows:5fr 1fr;
-    height:300px;
-    width:350px;
-   margin-left:25px;
-   margin-top:20px;
-}
-.griditem7{
-    display:grid;
-    grid-template-rows:5fr 1fr;
-    height:300px;
-    width:350px;
-   margin-left:25px;
-   margin-top:20px;
-}
-.griditem8{
-    display:grid;
-    grid-template-rows:5fr 1fr;
-    height:300px;
-    width:350px;
-   margin-left:25px;
-   margin-top:20px;
+    grid-template-rows:2fr 1fr;
+    height:600px;
+    width:500px;
+   margin-left:15px;
+   border-radius:30px;
 }
 .first-image{
-    background-image: url(../images/10.jpg);
-    background-position: center;
-    background-size:cover;
-    background-repeat:no-repeat;
-}
-.second-image{
-    background-image: url(../images/10.jpg);
-    background-position: center;
-    background-size:cover;
-    background-repeat:no-repeat;
-}
-.third-image{
-    background-image: url(../images/10.jpg);
-    background-position: center;
-    background-size:cover;
-    background-repeat:no-repeat;
-}
-.fourth-image{
-    background-image: url(../images/10.jpg);
-    background-position: center;
-    background-size:cover;
-    background-repeat:no-repeat;
-}
-.fifth-image{
+    /* border:5px solid red; */
     background-image: url(../images/shoe.jpg);
     background-position: center;
     background-size:cover;
     background-repeat:no-repeat;
+    border-radius:30px;
 }
-.sixth-image{
-    background-image: url(../images/10.jpg);
-    background-position: center;
-    background-size:cover;
-    background-repeat:no-repeat;
+.size{
+    margin-top:20px;
+    font-size:20px;
 }
-.seventh-image{
-    background-image: url(../images/10.jpg);
-    background-position: center;
-    background-size:cover;
-    background-repeat:no-repeat;
+.span-box{
+      margin-top:20px;
 }
-.eigth-image{
-    background-image: url(../images/10.jpg);
-    background-position: center;
-    background-size:cover;
-    background-repeat:no-repeat;
+.span-box ul{
+    list-style:none;
 }
-.new{
-    background-color:green;
+.span-box ul li{
+    display:inline;
+    border: 1px solid white;
+    padding:10px 10px;
+    border-radius:10px; 
+    font-weight:bold;
+    font-size:18px;
+}
+.name1{
+    margin-top:10px;
     text-transform:uppercase;
-    margin:10px 10px;
-    border-radius:10px;
-    color:white;
-    font-weight:bold;
-    padding:5px 5px;
-    width:55px;
-    text-align:center;
-}
-.discount{
-    background-color:rgb(150, 41, 41);
-    text-transform:uppercase;
-    margin:5px 10px;
-    border-radius:10px;
-    color:white;
-    font-weight:bold;
-    padding:5px 5px;
-    width:55px;
-    text-align:center;
-}
-.name{
-    font-weight:bold;
+    margin-left:12px;
     color:grey;
 }
+.name2{
+    margin-top:5px;
+    margin-left:20px;
+    font-size:45px;
+}
+.name3{
+    margin-left:20px;
+    font-size:20px;
+}
+.number{
+    background-color:black;
+    color:white;
+}
+.PriceTag{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    margin-bottom:10px;
+}
 .price{
-    font-size:17px;
-    font-weight:bolder;
+    /* border:1px solid white; */
+    /* margin-bottom:50px; */
+    font-size:40px;  
+}
+.title{
+    margin-top:30px;
+    font-weight:bold;
+    font-size:15px;
+}
+.shoe-btn{
+    margin-bottom:20px;
+}
+.shoe-button{
+    background-color:black;
+    color:white;
+    padding:10px 30px;
+    border-radius:12px;
+    text-align:center;
+    cursor:pointer;
+}
+.child1{
+    /* border:1px solid white; */
+    display:grid;
+    grid-template-rows:repeat(1fr,4);
+    border-radius:30px;
 }
 /* ABOUT */
 .Image1{
     height:100vh;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/4.jpg);
+    background-position:right;
+    background-size:cover;
+    background-repeat:no-repeat;
+    overflow:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+/* Contact */
+.image2{
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/background.jpg);
     background-position:right;
     background-size:cover;
     background-repeat:no-repeat;
