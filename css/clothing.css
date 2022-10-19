@@ -17,7 +17,7 @@ span{
     left:6%;
     text-transform:uppercase;
     font-size:30px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:"cursive";
 }
 .navbar{
    display:flex;
@@ -35,8 +35,7 @@ span{
     text-decoration:none;
     color:white;
     text-transform:uppercase;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    transition:all 0.5s ease-in-out;
+    font-family:"cursive";
 }
 /* .navbar li a:hover{
     border-radius: 25px;
@@ -254,16 +253,59 @@ span{
     margin-top:30px;
 }
 input[type='email']{
-    padding:10px 140px;
+    width: 80%;
+    /* padding:10px 140px; */
     border-radius:20px;
-}
-input[type='placeholder']{
-    margin-right:40px;
+    padding:10px;
 }
 input[type='password']{
-    padding:10px 140px;
+    padding:10px;
+    width:80%;
     border-radius:20px;
 }
 .label2{
     margin-top:20px;
+}
+.tick{
+    width: 100%;
+    /* border:1px solid white; */
+    display: grid;
+    grid-template-columns:2fr 2fr;
+    margin-top:20px;
+}
+.remember{
+    /* border:1px solid white; */
+    width:120px;
+    margin-right:40px;
+}
+.check{
+    /* border:1px solid white; */
+    margin-left:30px;
+    display: grid;
+    grid-template-columns:0.4fr 0.7fr;
+}
+.pass a{
+    color:rgb(43, 43, 163);
+    margin-top:5px;
+    text-decoration:none;
+}
+.sign{
+    width: 60%;
+    border: 1px solid black;
+    border-radius:25px;
+    background-color:black;
+    color:white;
+    padding:10px 10px;
+    margin-top:20px;
+    margin-left:80px;
+    font-family:"fantasy";
+}
+.last-section{
+    margin-top:20px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+.account{
+    text-decoration:none;
+    color:rgb(43, 43, 163);
 }
