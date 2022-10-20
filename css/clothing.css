@@ -7,19 +7,21 @@ body{
     color: white;
 }
 .logo{
-    margin-top:10px;
+    /* margin-top:10px; */
     margin-left:20px;
     width:50px;
 }
 span{
+    backdrop-filter: blur(5px);
     position:absolute;
-    top:2%;
+    top:3%;
     left:6%;
     text-transform:uppercase;
     font-size:30px;
     font-family:"cursive";
 }
 .navbar{
+    padding: 15px;
    display:flex;
    justify-content:space-between;
 }
@@ -36,6 +38,8 @@ span{
     color:white;
     text-transform:uppercase;
     font-family:"cursive";
+  position:relative;
+  bottom:5%;
 }
 /* .navbar li a:hover{
     border-radius: 25px;
@@ -202,13 +206,46 @@ span{
 /* ABOUT */
 .Image1{
     height:100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/4.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/6.jpg);
     background-position:right;
     background-size:cover;
     background-repeat:no-repeat;
     overflow:hidden;
 }
-
+.paragraph{
+    margin-top:40px;
+    width:90%;
+    line-height:2em;
+    margin-left:40px;
+}
+.paragraph h1{
+    margin-bottom:15px;
+}
+.paragraph2 h1{
+    margin-bottom:15px;
+}
+.paragraph3 h1{
+    margin-bottom:15px;
+}
+.paragraph2{
+    margin-top:40px;
+    width:90%;
+    line-height:2em;
+    margin-left:40px;
+}
+.paragraph3{
+    margin-top:40px;
+    width:90%;
+    line-height:2em;
+    margin-left:40px;
+}
+footer{
+    text-align:center;
+    font-size:20px;
+    font-family:"fantasy";
+    margin-top:80px;
+    margin-right:20px;
+}
 
 
 
